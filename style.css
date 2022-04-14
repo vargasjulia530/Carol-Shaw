@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*
+#BBCBFC
+#BADEFC
+#71B48D
+#72B5A2
+#002445
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor0: #BBCBFC;
+    --cor1: #BADEFC;
+    --cor2: #71B48D;
+    --cor3: #72B5A2;
+    --cor4: #002445;
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', 'cursive';
+}
+
+body {
+    background-color: var(--cor0);
+}
