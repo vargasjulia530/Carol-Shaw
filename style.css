@@ -1,28 +1,28 @@
 @charset "UTF-8";
-
-/*
-#BBCBFC
-#BADEFC
-#71B48D
-#72B5A2
-#002445
-*/
-
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
-:root {
-    --cor0: #BBCBFC;
-    --cor1: #BADEFC;
-    --cor2: #71B48D;
-    --cor3: #72B5A2;
-    --cor4: #002445;
-    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: 'Bebas Neue', 'cursive';
-}
-
 body {
-    background-color: var(--cor0);
+    background: rgb(167, 164, 108);
+}
+
+div {
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 340px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.237);
+}
+
+.box>a {
+    font-style: italic;
+    color: rgba(242, 4, 4, 0.812);
+    text-decoration: none;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin: 10px;
+    padding: 15px;
 }
