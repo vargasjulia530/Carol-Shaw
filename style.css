@@ -1,4 +1,8 @@
 @charset "UTF-8";
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: rgb(167, 164, 108);
 }
@@ -7,15 +11,19 @@ div {
     background: white;
     border-radius: 10px;
     padding: 5px;
-    width: 340px;
+    width: 400px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.237);
 }
 
 .box>a {
     font-style: italic;
-    color: rgba(242, 4, 4, 0.812);
+    color: rgb(242, 75, 4);
     text-decoration: none;
+}
+
+h1 {
+    padding: 25px;
 }
 
 p {
@@ -25,4 +33,14 @@ p {
     letter-spacing: 3px;
     margin: 10px;
     padding: 15px;
+}
+
+img {
+    max-width: 200px;
+    display: block;
+    padding: 30px;
+}
+
+a>img {
+    max-width: 50px;
 }
