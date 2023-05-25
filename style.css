@@ -4,11 +4,11 @@ html {
 }
 
 body {
-    background: rgb(78, 75, 34);
+    background:#74b4c4;
 }
 
 .box {
-    background: rgb(212, 198, 88);
+    background: #4cb4dc;
     padding: 5px;
     width: 450px;
     margin: auto;
